@@ -13,9 +13,7 @@ CRUD backend for a library's book catalog with search by title or author.
    ```sql
    CREATE DATABASE book_catalog_db;
    ```
-
 2. **Update `src/main/resources/application.properties`** with your MySQL username/password.
-
 3. **Run the app**:
    ```bash
    mvn spring-boot:run
@@ -42,7 +40,7 @@ CRUD backend for a library's book catalog with search by title or author.
 | GET    | `/api/books/search?author=yyy`             | Search by author (partial match)      |
 | GET    | `/api/books/search?title=xxx&author=yyy`   | Search matching either title or author|
 
-### Sample create request
+### Sample create request-
 ```json
 {
   "title": "Clean Code",
